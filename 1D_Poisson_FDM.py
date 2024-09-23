@@ -1,11 +1,10 @@
 # Solution of 1D Poisson's Equation with FDM
-# Joao Pedro Colaco Romana (5625866) 2022
+# Joao Pedro Colaco Romana 2022
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 n = 5
-
 
 def finitedifferences(n):
     xgrid = np.linspace(0, 3, n + 1)  # Divides [0,3] into n sub-intervals
