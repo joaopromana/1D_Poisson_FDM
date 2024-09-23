@@ -4,7 +4,7 @@ The following boundary-value problem is considered:
 ```math
 \begin{equation}
     \begin{dcases} 
-        -\frac{d^2u_i}{dx^2}=f_i, x \in (0, 3) \\
+        -\frac{d^2u_i}{dx^2}=f_i, \ \ \ \ \ x \in (0, 3) \\
         u_i(0)=1 \\
         u_i(3)=1 \\
     \end{dcases}
