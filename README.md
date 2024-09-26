@@ -1,6 +1,7 @@
 # 1D_Poisson_FDM
 Solution of 1D Poisson’s equation with Finite Difference Method.
 The following boundary-value problem is considered:
+
 ```math
 \begin{equation}
     \begin{dcases} 
@@ -10,7 +11,9 @@ The following boundary-value problem is considered:
     \end{dcases}
 \end{equation}
 ```
-with the source functions:
+
+Two different cases are investigated with the respective source functions:
+
 ```math
 \begin{equation}
     \begin{dcases} 
